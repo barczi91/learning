@@ -1,0 +1,7 @@
+import random
+
+name = "Barczi91"
+answers = ["Yes - definitely.", "It is decidedly so.", "Without a doubt.", "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "My sources say no.", "Outlook not so good.", "Very doubtful."]
+question = "Will I succeed as a programmer?"
+
+print(f'{name} asks: {question} \nMagic 8-Ball’s answer: {random.choice(answers)}')
